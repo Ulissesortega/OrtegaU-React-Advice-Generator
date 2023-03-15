@@ -1,38 +1,56 @@
-.App {
+.cuzAdviceColor{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  background-color: #313A49;
+  border-radius: 1rem;
+}
+.ADV{
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  color: #53FFA9;
+  font-size: 28px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ADGH{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-top: 3rem;
+  text-align: center;
+  font-family: Manrope;
+  color: #CEE3E8;
+  font-size: 28px;
+}
+.dCuz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #53FFA9;
+  padding: 2rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 3rem;
+}
+.imgCuz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cuz{
+  background-color: #202632;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
